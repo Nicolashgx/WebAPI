@@ -8,7 +8,7 @@ namespace WebApplication1.Domain.Interfaces
 
         Task<Country> CreateCountryAsync(Country country);
 
-        Task<Country> GetCountryById(Guid id);
+        Task<Country> GetCountryByIdAsync(Guid id);
 
         Task<Country> EditCountryAsync(Country country);
 
