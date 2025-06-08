@@ -18,7 +18,6 @@ namespace WebApplication1.DAL
             modelBuilder.Entity<Country>().HasIndex(c => c.Name).IsUnique(); // asi creo index para el campo name de la tabla country
         }
 
-        #region Dbsets
 
         public DbSet<Country> Countries { get; set; }
 
